@@ -8,3 +8,8 @@ try:
     print(tags[4])
 except IndexError:
     print("Проверь задаваемый индекс")
+
+try:
+    len(5)
+except TypeError:
+    print("Не итеррируемый")
